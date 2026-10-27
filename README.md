@@ -169,10 +169,10 @@ In accordance with the challenge instructions :
         </p>
             <p align="center">
                 <a href="https://github.com/Sandhit06">
-                    <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793129054/development_w3rf1l.svg" width="36" height="36" alt="GitHub"/>
+                    <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793130084/round-collaboration-social-github-code-circle-network-icon_rk5x5t.svg" width="36" height="36" alt="GitHub"/>
                 </a>
                 <a href="https://www.linkedin.com/in/sandhit-karmakar/" target="_blank">
-                    <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793127775/linkedin_icon-icons.com_62764_zgprot.svg" width="36" height="36" alt="LinkedIn"/>
+                    <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793130084/network-linkedin-social-connection-circular-circle-media-icon_vdou3m.svg" width="36" height="36" alt="LinkedIn"/>
                 </a>
                 <a href="mailto:sandhitkarmakar@gmail.com" target="_blank">
                     <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793129062/share-send-email-chat-circle-message-mail-icon_u4rx53.svg" width="36" height="36" alt="Email"/>
