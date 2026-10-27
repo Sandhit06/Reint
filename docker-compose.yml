@@ -1,0 +1,21 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: reint-wind-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - USE_LIVE_ELEXON_API=false
+      - ELEXON_API_BASE_URL=https://data.elexon.co.uk/bmrs/api/v1
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: reint-wind-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
