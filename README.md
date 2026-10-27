@@ -54,7 +54,6 @@ The horizon curve compares each hourly WINDFOR value with the mean of its two co
 ```text
 reint_uk_wind_day_ahead_portal/
 ├── README.md                              # Project documentation, setup, deployment & AI disclosure
-├── PITCH_AND_TECH_REVIEW_SCRIPT.md        # 10-minute video guide script (Part 1 Client Pitch + Part 2 Tech Lead Review)
 ├── Dockerfile                             # Combined image: FastAPI API plus compiled React app
 ├── docker-compose.yml                     # Multi-container orchestration (FastAPI backend + React/Nginx frontend)
 ├── vercel.json                            # Vercel API and static frontend routing
@@ -157,5 +156,32 @@ To deploy the root container to Heroku, create an app, then use Heroku Container
 
 ## 6. Explicit AI Tool Usage Disclosure
 
-In accordance with the challenge instructions (*"You are free to use AI tools to assist with building this application (please mention it explicitly in the README if you've used AI tools)"*):
+In accordance with the challenge instructions :
 - **AI Assistance Disclosure**: Gemini was used in the initial implementation. OpenAI Codex was used to review the challenge brief and Elexon API documentation, validate and replace the January snapshot data, refine the point-in-time analytics, improve the interface, and repair container configuration. The backend test suite covers point-in-time alignment and forecast data integrity.
+
+## Developer
+<table>
+    <tr align="center">
+        <td>
+        Sandhit Karmakar
+        <p align="center">
+            <img src = "https://avatars.githubusercontent.com/u/90787826?v=4" width="150" height="150" alt="Dhruv Shah">
+        </p>
+            <p align="center">
+                <a href="https://github.com/Sandhit06">
+                    <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793129054/development_w3rf1l.svg" width="36" height="36" alt="GitHub"/>
+                </a>
+                <a href="https://www.linkedin.com/in/sandhit-karmakar/" target="_blank">
+                    <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793127775/linkedin_icon-icons.com_62764_zgprot.svg" width="36" height="36" alt="LinkedIn"/>
+                </a>
+                <a href="mailto:sandhitkarmakar@gmail.com" target="_blank">
+                    <img src="https://res.cloudinary.com/dyz1paeem/image/upload/v1793129062/share-send-email-chat-circle-message-mail-icon_u4rx53.svg" width="36" height="36" alt="Email"/>
+                </a>
+            </p>
+        </td>
+    </tr>
+</table>
+
+<p align="center">
+    Made with ❤️ by <a href="https://github.com/Sandhit06">Sandhit Karmakar</a>
+</p>
