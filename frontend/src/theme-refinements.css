@@ -846,3 +846,87 @@
     color: #354a3b;
   }
 }
+
+/* Make the decision controls and headline metrics easier to scan. */
+.control-heading > div {
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.field {
+  font-size: 12px;
+  font-weight: 600;
+  gap: 8px;
+}
+
+.field small {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.field input:not([type='range']),
+.custom-select-trigger {
+  min-height: 42px;
+  font-size: 12px;
+}
+
+.horizon-field b {
+  font-size: 12px;
+}
+
+.metric-top {
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.metric-top > span:first-child {
+  min-width: 0;
+  line-height: 1.35;
+}
+
+@media (max-width: 600px) {
+  .control-panel {
+    padding: 16px;
+  }
+
+  .control-heading {
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .control-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .horizon-field {
+    grid-column: auto;
+  }
+
+  .field {
+    min-width: 0;
+    font-size: 12px;
+  }
+
+  .field input:not([type='range']),
+  .custom-select-trigger {
+    width: 100%;
+    min-height: 46px;
+  }
+
+  .custom-select-menu {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .metric-top {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 360px) {
+  .metrics-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

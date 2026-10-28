@@ -2,6 +2,10 @@
 
 A full-stack wind forecast accuracy and shortfall-risk analytics application for a UK utility trading team operating in the Great Britain Day-Ahead Wholesale Electricity Market (EPEX Spot / N2EX).
 
+> **In a nutshell:** the project checks what the wind forecast actually said at a chosen day-ahead trading cutoff, compares it with the wind generation that later happened, and summarizes how large the historical forecast miss was. A trader can use that evidence to understand wind shortfall exposure before making a procurement decision. It analyzes wind risk; it does not calculate the utility's complete power purchase because no demand forecast is included.
+
+For a client-facing walkthrough and detailed explanation of the dashboard, data pipeline, metrics, and architecture, see [PITCH_AND_TECH_REVIEW_SCRIPT.md](PITCH_AND_TECH_REVIEW_SCRIPT.md).
+
 Built using **React (TypeScript, custom responsive CSS, and Recharts)** on the frontend and **Python (FastAPI + Pydantic + HTTPX)** on the backend. The app can run as two Docker Compose services or as one container from the root `Dockerfile`.
 
 ---
